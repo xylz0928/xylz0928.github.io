@@ -1,0 +1,58 @@
+.ee-card {
+	background: rgb(250, 250, 250);
+	box-shadow: 0 0 1px rgb(170, 170, 170);
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif,
+		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	font-size: 14px;
+	position: relative;
+}
+
+/* Make sure links have the same color as a normal text. */
+.ee-card a {
+	border: 0 none !important;
+	box-shadow: none !important;
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+.ee-card__thumb {
+	width: 100%;
+}
+
+.ee-card__thumb a {
+	display: block;
+}
+
+.ee-card__thumb a img {
+	width: 100%;
+}
+
+.ee-card__info {
+	padding: 12px 15px;
+}
+
+.ee-card__title {
+	font-size: 1.1em;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+
+.ee-card__description {
+	font-size: 1em;
+	line-height: 1.3em;
+	padding-top: 0.5em;
+}
+
+.ee-card__meta {
+	color: inherit;
+	font-size: 0.8em;
+	font-weight: bold;
+	opacity: 0.5;
+	padding-top: 0.7em;
+}
+
+.ee-card__meta a,
+.ee-card__meta span {
+	text-transform: uppercase;
+}
